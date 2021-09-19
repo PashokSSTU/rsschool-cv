@@ -8,7 +8,7 @@
 **Phone:** +7 917 986 94 91<br>
 **E-mail:** hromov_pavel@list.ru<br>
 **Telegram:** @Khromerius_2001<br>
-
+**My GitHub** [PashokSSTU](https://github.com/PashokSSTU)<br>
 ---
 
 ### About me:
@@ -30,7 +30,7 @@ I am 20 years old. I am a third year student at Saratov State Technical Universi
 ### Code example:
 
 **Peak array index KATA from CODEWARS:**
-*Nickname Generator. Write a function, nicknameGenerator that takes a string name as an argument and returns the first 3 or 4 letters as a nickname.
+Nickname Generator. Write a function, nicknameGenerator that takes a string name as an argument and returns the first 3 or 4 letters as a nickname.
 If the 3rd letter is a consonant, return the first 3 letters.
 If the 3rd letter is a vowel, return the first 4 letters.
 If the string is less than 4 characters, return "Error: Name too short".
@@ -40,7 +40,7 @@ Notes:
 - Vowels are "aeiou", so discount the letter "y".
 - Input will always be a string.
 - Input will always have the first letter capitalised and the rest lowercase (e.g. Sam).
-- The input can be modified.*
+- The input can be modified.
 
 ```javascript
     function nicknameGenerator(name){
