@@ -8,7 +8,7 @@
 **Phone:** +7 917 986 94 91<br>
 **E-mail:** hromov_pavel@list.ru<br>
 **Telegram:** @Khromerius_2001<br>
-**My GitHub** [PashokSSTU](https://github.com/PashokSSTU)<br>
+**My GitHub account:** [PashokSSTU](https://github.com/PashokSSTU)<br>
 
 ---
 
