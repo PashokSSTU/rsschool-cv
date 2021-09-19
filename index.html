@@ -14,9 +14,9 @@
     <script src="libs/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
     <main class="resume">
-        <section class="resume_main">
+        <div class="resume_main">
             <aside class="resume_left">
-                <section class="profile_data_icons"></section>
+                <div class="profile_data_icons"></div>
                 <ul class="contacts">
                     <li class="phone">
                         <div>
@@ -47,11 +47,11 @@
                         </div>
                     </li>
                 </ul>
-                <section>
+                <div>
                     <img src="img/avatar.jpg" alt="profile_avatar_pic" class="profile_img">
-                </section>
+                </div>
 
-                <section class="statistics">
+                <div class="statistics">
                     <ul class="skills">
                         <li class="skills_header">
                             Skills
@@ -61,9 +61,9 @@
                                 <span class="skill">HTML</span>
                             </div>
                             <div>
-                                <span class="percent">
+                                <div class="percent">
                                     <div style="width: 53%"></div>
-                                </span>
+                                </div>
                             </div>
                         </li>
                         <li class="skills_points">
@@ -71,9 +71,9 @@
                                 <span class="skill">CSS</span>
                             </div>
                             <div>
-                                <span class="percent">
+                                <div class="percent">
                                     <div style="width: 55%"></div>
-                                </span>
+                                </div>
                             </div>
                         </li>
                         <li class="skills_points">
@@ -81,9 +81,9 @@
                                 <span class="skill">JavaScript</span>
                             </div>
                             <div>
-                                <span class="percent">
+                                <div class="percent">
                                     <div style="width: 60%"></div>
-                                </span>
+                                </div>
                             </div>
                         </li>
                         <li class="skills_points">
@@ -91,9 +91,9 @@
                                 <span class="skill">Python</span>
                             </div>
                             <div>
-                                <span class="percent">
+                                <div class="percent">
                                     <div style="width: 50%"></div>
-                                </span>
+                                </div>
                             </div>
                         </li>
                         <li class="skills_points">
@@ -101,9 +101,9 @@
                                 <span class="skill">C++</span>
                             </div>
                             <div>
-                                <span class="percent">
+                                <div class="percent">
                                     <div style="width: 75%"></div>
-                                </span>
+                                </div>
                             </div>
                         </li>
                     </ul>
@@ -119,39 +119,39 @@
                                 </span>
                             </div>
                             <div>
-                                <span class="percent">
+                                <div class="percent">
                                     <div style="width: 35%"></div>
-                                </span>
+                                </div>
                             </div>
                         </li>
                         <li class="lang_points">
                             <div class="div_lang">
-                                <span class="lang">
+                                <div class="lang">
                                     Russian
-                                </span>
+                                </div>
                             </div>
                             <div>
-                                <span class="percent">
+                                <div class="percent">
                                     <div style="width: 95%"></div>
-                                </span>
+                                </div>
                             </div>
                         </li>
                     </ul>
 
                     <section class="hobbies">
-                        <div class="hobbies_header">
+                        <h2 class="hobbies_header">
                             Hobbies
-                        </div>
+                        </h2>
                         <p class="hobbies_descripton">
                             Socializing with friends and family, programming, travelling and compucting
                         </p>
                     </section>
 
-                </section>
+                </div>
             </aside>
 
-            <section class="resume_right">
-                <section class="name_space">
+            <div class="resume_right">
+                <div class="name_space">
                     <div class="name">
                         <span class="first_name">
                             PAVEL
@@ -161,13 +161,13 @@
                         </span>
                     </div>
                     <div class="my_status">
-                        &nbspFront-end junior&nbsp
+                        &nbsp;Front-end junior&nbsp;
                     </div>
-                </section>
+                </div>
 
-                <article class="main_description">
+                <div class="main_description">
                     <section class="about_me">
-                        <p class="about_me_header">About me</p>
+                        <h2 class="about_me_header">About me</h2>
                         <p class="about_me_description">
                             I enjoy learning and creating new things. I love spending time with my family and friends. I
                             love
@@ -183,32 +183,32 @@
                         </p>
                     </section>
                     <section class="education">
-                        <p class="education_header">Education</p>
+                        <h2 class="education_header">Education</h2>
                         <section class="university">
-                            <p class="university_speciality">Instrumentation</p>
+                            <h3 class="university_speciality">Instrumentation</h3>
 
                             <p class="name_university">
                                 Yuri Gagarin State Technical University of Saratov
-                                <span class="university_years"> &nbsp&nbsp&nbsp__ &nbsp&nbsp&nbsp2019-2023</span>
+                                <span class="university_years"> &nbsp;&nbsp;&nbsp;__ &nbsp;&nbsp;&nbsp;2019-2023</span>
                             </p>
                         </section>
                         <section class="rs_course">
-                            <p class="course_speciality">JS / FRONT-END</p>
+                            <h3 class="course_speciality">JS / FRONT-END</h3>
 
                             <p class="name_organisation">
                                 The Rolling Scopes School
-                                <span class="university_years"> &nbsp&nbsp&nbsp__ &nbsp&nbsp&nbspfrom September 2021 to
+                                <span class="university_years"> &nbsp;&nbsp;&nbsp;__ &nbsp;&nbsp;&nbsp;from September 2021 to
                                     the
                                     pr.</span>
                             </p>
                         </section>
                     </section>
                     <section class="code_example_container">
-                        <p class="code_example_header">Code Example</p>
+                        <h2 class="code_example_header">Code Example</h2>
                         <pre>
-                    <code class="code_example" using class="JavaScript">
+                    <code class="js_code">
 function nicknameGenerator(name){
-    if(name.length < 4) {
+    if(name.length &lt; 4) {
         return "Error: Name too short";
     }
     let check_vowels = name.replace(/[aeiou]/gi, " ");
@@ -221,13 +221,13 @@ function nicknameGenerator(name){
                   </code>
                 </pre>
                     </section>
-                </article>
-            </section>
-        </section>
+                </div>
+            </div>
+        </div>
         <footer>
             <figure class="github">
                 <a href="https://github.com/PashokSSTU" target="blank">
-                    <img src="img/Github.png" alt="github_pic" href="https://github.com/PashokSSTU">
+                    <img src="img/Github.png" alt="github_pic">
                 </a>
                 <p>My GitHub</p>
             </figure>
