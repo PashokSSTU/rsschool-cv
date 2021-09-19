@@ -26,3 +26,49 @@ I am 20 years old. I am a third year student at Saratov State Technical Universi
 - C, C++, Python Basics, C# Basics
 
 ---
+
+### Code example:
+
+**Peak array index KATA from CODEWARS:**
+*Nickname Generator. Write a function, nicknameGenerator that takes a string name as an argument and returns the first 3 or 4 letters as a nickname.
+If the 3rd letter is a consonant, return the first 3 letters.
+If the 3rd letter is a vowel, return the first 4 letters.
+If the string is less than 4 characters, return "Error: Name too short".
+
+Notes:
+
+- Vowels are "aeiou", so discount the letter "y".
+- Input will always be a string.
+- Input will always have the first letter capitalised and the rest lowercase (e.g. Sam).
+- The input can be modified.*
+
+```javascript
+    function nicknameGenerator(name){
+        if(name.length < 4) {
+            return "Error: Name too short";
+        }
+        let check_vowels = name.replace(/[aeiou]/gi, " ");
+        if(check_vowels[2] == " ") {
+            return name[0] + name[1] + name[2] + name[3];
+        } else {
+            return name[0] + name[1] + name[2];
+        }
+    }
+```
+---
+
+### Education:
+
+- Saratov State Technical University (in process)
+    - Instrumentation 
+- JavaScript tutorials from https://learn.javascript.ru/ (in process)
+- JS/Frontend course from RS School (in process)
+
+---
+
+### Languages:
+
+- English \- Elementary
+- Russian \- Native
+
+
