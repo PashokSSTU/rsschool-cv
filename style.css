@@ -8,13 +8,15 @@
 }
 
 body {
-    background-color: #585c68;
+    /*background-color: #585c68;*/
+    background-color: #FFFAF0;
 }
 
 .resume {
     width: 600px;
     height: auto;
     margin: 50px auto;
+    box-shadow: 0 0 5px;
 }
 
 .resume_main {
