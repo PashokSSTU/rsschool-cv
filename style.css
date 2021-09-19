@@ -59,18 +59,18 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+    margin-bottom: 10px;
 }
 
 .div_span {
     margin-left: 22px;
 }
 
-.pic_phone, .pic_mail, .pic_web, .pic_address {
+.pic_phone, .pic_mail, .pic_address {
     margin-left: 12px;
 }
 
-.phone_description, .mail_description, .web_description, .area_description {
+.phone_description, .mail_description, .area_description {
     font-style: italic;
     font-family: Inter;
     font-style: italic;
@@ -81,7 +81,7 @@ body {
     color: #333333;
 }
 
-.phone_title, .mail_title, .websyte_title, .address_title {
+.phone_title, .mail_title, .address_title {
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
@@ -99,11 +99,6 @@ body {
 .pic_mail {
     width: 13px;
     height: 9px;
-}
-
-.pic_web {
-    width: 12px;
-    height: 12px;
 }
 
 .pic_address {
