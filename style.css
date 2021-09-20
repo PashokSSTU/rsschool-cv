@@ -452,7 +452,7 @@ body {
     .name_space {
         position: absolute;
         top: 62px;
-        right: 14px;
+        left: 14px;
     }
 
 }
