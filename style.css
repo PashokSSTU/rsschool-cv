@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+/*
+@media screen and (max-width: 480px) {
+  .text {
+    font-size: 16px;
+  }
+}
+*/
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,21 +21,195 @@ body {
     background-color: #FFFAF0;
 }
 
+@media screen and (min-width: 600px) {
+    .resume {
+        width: 600px;
+        height: auto;
+
+    }
+
+    .resume_main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .resume_left {
+        width: 220px;
+    }
+
+    .resume_right {
+        width: 380px;
+    }
+}
+
+
+@media screen and (max-width: 598px) {
+    .resume {
+        width: 598px;
+        height: auto;
+
+    }
+
+    .resume_main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .resume_left {
+        width: 220px;
+    }
+
+    .resume_right {
+        width: 378px;
+    }
+}
+
+@media screen and (max-width: 598px) {
+    .resume {
+        width: 568px;
+        height: auto;
+
+    }
+
+    .resume_main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .resume_left {
+        width: 205px;
+    }
+
+    .resume_right {
+        width: 363px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .resume {
+        width: 480px;
+        height: auto;
+
+    }
+
+    .resume_main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .resume_left {
+        width: 480px;
+    }
+
+    .resume_right {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .resume {
+        width: 414px;
+        height: auto;
+
+    }
+
+    .resume_main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .resume_left {
+        width: 414px;
+    }
+
+    .resume_right {
+        width: 414px;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .resume {
+        width: 384px;
+        height: auto;
+
+    }
+
+    .resume_main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .resume_left {
+        width: 384px;
+    }
+
+    .resume_right {
+        width: 384px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .resume {
+        width: 375px;
+        height: auto;
+
+    }
+
+    .resume_main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .resume_left {
+        width: 375px;
+    }
+
+    .resume_right {
+        width: 375px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .resume {
+        width: 320px;
+        height: auto;
+
+    }
+
+    .resume_main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .resume_left {
+        width: 320px;
+    }
+
+    .resume_right {
+        width: 320px;
+    }
+}
+
 .resume {
-    width: 600px;
-    height: auto;
     margin: 50px auto;
     box-shadow: 0 0 5px;
 }
 
-.resume_main {
+/*.resume_main {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
+}*/
 
 .resume_left {
-    width: 220px;
     height: 807px;
     background-color: white;
     display: flex;
@@ -238,7 +421,7 @@ body {
 
 .resume_right {
     position: relative;
-    width: 380px; /*600-220*/
+    /*width: 380px;*/ /*600-220*/
     height: 807px;
     background-color: #FFFFFF;
 }
@@ -386,21 +569,32 @@ footer {
     align-items: center;
 }
 
-footer .github img {
-    height: 45px;
-    width: auto;
+@media screen and (min-width: 320px) {
+    footer .github img, footer .rsschool img {
+        height: 45px;
+        width: auto;
+    }
+
+    .github > p, .year_of_cv {
+        font-size: 13px;
+    }
 }
 
-footer .rsschool img {
-    height: 70px;
-    width: auto;
+@media screen and (max-width: 320px) {
+    footer .github img, footer .rsschool img {
+        height: 25px;
+        width: auto;
+    }
+
+    .github > p, .year_of_cv {
+        font-size: 8px;
+    }
 }
 
 .year_of_cv {
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
-    font-size: 13px;
     line-height: 16px;
     
     letter-spacing: 0.15em;
@@ -413,7 +607,6 @@ footer .rsschool img {
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
     line-height: 16px;
     
     letter-spacing: 0.15em;
