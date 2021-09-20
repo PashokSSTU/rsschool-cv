@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-/*
-@media screen and (max-width: 480px) {
-  .text {
-    font-size: 16px;
-  }
-}
-*/
-
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,7 +8,6 @@
 }
 
 body {
-    /*background-color: #585c68;*/
     background-color: #FFFAF0;
 }
 
@@ -390,6 +380,27 @@ body {
     margin-bottom: 14px;
 }
 
+@media screen and (min-width: 480px) {
+    .hobbies {
+        width: 410px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hobbies {
+        width: 410px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hobbies {
+        width: 250px;
+        height: auto;
+    }
+}
+
 .hobbies {
     margin-top: 30px;
 }
@@ -426,10 +437,28 @@ body {
     background-color: #FFFFFF;
 }
 
+@media screen and (min-width: 320px) {
+
+    .name_space {
+        position: absolute;
+        top: 62px;
+        right: 60px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .name_space {
+        position: absolute;
+        top: 62px;
+        right: 14px;
+    }
+
+}
+
+
 .name_space {
-    position: absolute;
-    top: 62px;
-    right: 60px;
     width: 292px;
     height: 56px;
 
@@ -481,9 +510,28 @@ body {
     left: 15px;
 }
 
-.about_me { 
-    width: 310px;
-    height: auto;
+@media screen and (min-width: 480px) {
+    .about_me, .education {
+        width: 310px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about_me, .education {
+        width: 410px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .about_me, .education {
+        width: 250px;
+        height: auto;
+    }
+}
+
+.about_me, .education {    
     margin-bottom: 25px;
 }
 
@@ -555,8 +603,23 @@ body {
     margin-top: 35px;
 }
 
-.js_code {
-    font-size: 11px;
+
+@media screen and (max-width: 320px) {
+    .js_code {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .js_code {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .js_code {
+        font-size: 11px;
+    }
 }
 
 footer {
